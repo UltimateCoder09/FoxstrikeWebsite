@@ -1,0 +1,32 @@
+@font-face {
+  font-family: Axiforma;
+  src: url(Axiforma.ttf) format("truetype");
+}
+html, body {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+  padding: 60px 0 0 0;
+  font-family: Axiforma;
+}
+.homebody {
+  padding: 40px 0 0 0;
+}
+.homecontainer {
+  padding-top: 15px;
+}
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Axiforma;
+  color: white;
+}
+.maintext {
+    font-size: 5rem !important;
+}
+.lead {
+font-weight: lighter;
+}
